@@ -38,4 +38,4 @@ Desarrollado por los estudiantes:
 ![Image text](https://github.com/sebas0163/decodificador_Grey/blob/main/imagenes/tablaLED.PNG)
 ![Image text](https://github.com/sebas0163/decodificador_Grey/blob/main/imagenes/codificadorBinarioLed.PNG)
 ![Image text](https://github.com/sebas0163/decodificador_Grey/blob/main/imagenes/tablaDisplay.PNG)
-
+![Image text](https://github.com/sebas0163/decodificador_Grey/blob/main/imagenes/codificadorBinarioDisplay.PNG)
