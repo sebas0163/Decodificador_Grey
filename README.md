@@ -28,3 +28,6 @@ Desarrollado por los estudiantes:
 - Las reuniones serán por la plataforma Zoom, cuando se considere pertinente. De preferencia serán en modalidad presencial.
 - Se deberá de cumplir con los plazos de entrega establecidos por el profesor.
 - Se deberá de completar las tareas correspondientes a cada miembro.
+
+## Codigo Gray
+- Es un codigo sin peso y no aritmetico, lo que implica que no existen pesos especificos asignados a las posiciones de los bits. Es caracterizado por solo varia un bit de un codigo al siguiente.
