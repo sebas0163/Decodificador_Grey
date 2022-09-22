@@ -32,4 +32,4 @@ Desarrollado por los estudiantes:
 ## Codigo Gray
 - Es un codigo sin peso y no aritmetico, lo que implica que no existen pesos especificos asignados a las posiciones de los bits. Es caracterizado por solo varia un bit de un codigo al siguiente.
 
-![Image text](https://github.com/sebas0163/decodificador_Grey/imagenes/tablaGray.PNG
+![Image text](https://github.com/sebas0163/decodificador_Grey/blob/main/imagenes/tablaGray.PNG)
