@@ -36,12 +36,10 @@ Desarrollado por los estudiantes:
 ## Codigo Gray
 - Es un codigo sin peso y no aritmetico, lo que implica que no existen pesos especificos asignados a las posiciones de los bits. Es caracterizado por solo varia un bit de un codigo al siguiente.
 
-<p align="center">
-  ![Image text](https://github.com/sebas0163/decodificador_Grey/blob/main/imagenes/tablaGray.PNG)
-  ![Image text](https://github.com/sebas0163/decodificador_Grey/blob/main/imagenes/tablaVerdadGray.PNG)
-  ![Image text](https://github.com/sebas0163/decodificador_Grey/blob/main/imagenes/codificadorGrayBinario.PNG)
-  ![Image text](https://github.com/sebas0163/decodificador_Grey/blob/main/imagenes/tablaLED.PNG)
-  ![Image text](https://github.com/sebas0163/decodificador_Grey/blob/main/imagenes/codificadorBinarioLed.PNG)
-  ![Image text](https://github.com/sebas0163/decodificador_Grey/blob/main/imagenes/tablaDisplay.PNG)
-  ![Image text](https://github.com/sebas0163/decodificador_Grey/blob/main/imagenes/codificadorBinarioDisplay.PNG)
-</p>
+![Image text](https://github.com/sebas0163/decodificador_Grey/blob/main/imagenes/tablaGray.PNG)
+![Image text](https://github.com/sebas0163/decodificador_Grey/blob/main/imagenes/tablaVerdadGray.PNG)
+![Image text](https://github.com/sebas0163/decodificador_Grey/blob/main/imagenes/codificadorGrayBinario.PNG)
+![Image text](https://github.com/sebas0163/decodificador_Grey/blob/main/imagenes/tablaLED.PNG)
+![Image text](https://github.com/sebas0163/decodificador_Grey/blob/main/imagenes/codificadorBinarioLed.PNG)
+![Image text](https://github.com/sebas0163/decodificador_Grey/blob/main/imagenes/tablaDisplay.PNG)
+![Image text](https://github.com/sebas0163/decodificador_Grey/blob/main/imagenes/codificadorBinarioDisplay.PNG)
