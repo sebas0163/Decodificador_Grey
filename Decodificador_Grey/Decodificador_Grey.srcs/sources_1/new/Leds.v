@@ -1,12 +1,12 @@
 `timescale 1ns / 1ps
 //////////////////////////////////////////////////////////////////////////////////
-// Company: TEC
-// Engineer: Sebastian Moya Monge
+// Company: 
+// Engineer: 
 // 
-// Create Date: 10/01/2022 08:02:40 PM
-// Design Name: Submodulo 2
-// Module Name: Leds
-// Project Name: Decodificador_Grey
+// Create Date: 09/30/2022 02:36:46 PM
+// Design Name: 
+// Module Name: leds
+// Project Name: 
 // Target Devices: 
 // Tool Versions: 
 // Description: 
@@ -19,12 +19,37 @@
 // 
 //////////////////////////////////////////////////////////////////////////////////
 
-module Leds(
-    input wire [3:0] codigo,
+
+module leds(
+    input reg [3:0] bin,
+    input clk,
     output reg [3:0] leds
     );
-    always@(*)
-    begin
-        leds = codigo;
+    reg [3:0] count_aux= 4'd0;
+    reg [3:0] counter = 4'd0;
+    reg enable =0;
+    
+    always @ (posedge clk)
+    begin 
+        if (enable)
+        begin
+             leds <= bin;
+        end
+        else
+        begin
+            count_aux <= counter;
+        end
     end
+    always @ *
+    begin
+        if(counter == 4'd10)
+        begin 
+            counter = 4'd0;
+        end
+        else
+        begin 
+            counter = count_aux + 1'd1;
+        end
+    end
+    
 endmodule
