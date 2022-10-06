@@ -34,6 +34,7 @@ module leds(
         if (enable)
         begin
              leds <= bin;
+             enable <=0;
         end
         else
         begin
@@ -44,6 +45,7 @@ module leds(
     begin
         if(counter == 4'd10)
         begin 
+            enable =1;
             counter = 4'd0;
         end
         else
