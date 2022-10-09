@@ -36,6 +36,22 @@ Desarrollado por los estudiantes:
 ## Codigo Gray
 - Es un codigo sin peso y no aritmetico, lo que implica que no existen pesos especificos asignados a las posiciones de los bits. Es caracterizado por solo varia un bit de un codigo al siguiente.
 
+# Decodificador Gray
+## Descripción del circuito
+
+- El circuito consta de tres subsistemas, los cuales se encargan de convertir el número en código gray a binario (decosficiador gray), enviar la señal en binario para ser representada en leds (subsistema de leds) y también toma la señal y la muestra en el display de siete segmentos (subsistema de 7 segmentos).
+
+## Subsistema de LEDS
+
+## Maquina de estado finito del código de Gray
+
+
+## Simulación general del circuito
+
+
+
+
+
 ![Image text](https://github.com/sebas0163/decodificador_Grey/blob/main/imagenes/tablaGray.PNG)
 ![Image text](https://github.com/sebas0163/decodificador_Grey/blob/main/imagenes/tablaVerdadGray.PNG)
 ![Image text](https://github.com/sebas0163/decodificador_Grey/blob/main/imagenes/codificadorGrayBinario.PNG)
