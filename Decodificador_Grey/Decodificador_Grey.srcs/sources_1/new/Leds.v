@@ -21,37 +21,37 @@
 
 
 module leds(
-    input reg [3:0] bin,
+    input wire [3:0] bin,
     input clk,
     output reg [3:0] leds
     );
-    reg [3:0] count_aux= 4'd0;
-    reg [3:0] counter = 4'd0;
+    reg [25:0] counter = 26'd0;
     reg enable =0;
     
+    //Flip flop
     always @ (posedge clk)
     begin 
         if (enable)
         begin
              leds <= bin;
-             enable <=0;
-        end
-        else
-        begin
-            count_aux <= counter;
-        end
-    end
-    always @ *
-    begin
-        if(counter == 4'd10)
-        begin 
-            enable =1;
-            counter = 4'd0;
-        end
-        else
-        begin 
-            counter = count_aux + 1'd1;
         end
     end
     
+    //Counter
+    always @ *
+    begin
+        if(counter == 26'd50000000)
+        begin 
+            counter = 26'd0;
+        end
+        else
+        begin 
+            counter = counter + 26'd1;
+        end
+        
+        //comparador
+        enable = (counter == 26'd50000000) ? 1'b1: 1'b0;
+    end
+    
+
 endmodule
