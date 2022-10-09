@@ -43,6 +43,14 @@ Desarrollado por los estudiantes:
 
 ## Subsistema de LEDS
 
+### Diagrama de Bloques
+
+![Image text](https://github.com/sebas0163/decodificador_Grey/blob/main/imagenes/Bloques_leds.png)
+
+### Diagrama de funcionamiento
+
+![Image text](https://github.com/sebas0163/decodificador_Grey/blob/main/imagenes/Diagrama%20leds.png)
+
 ## Maquina de estado finito del código de Gray
 
 
