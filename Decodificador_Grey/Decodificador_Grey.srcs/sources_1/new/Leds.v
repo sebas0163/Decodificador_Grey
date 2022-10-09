@@ -38,7 +38,7 @@ module leds(
     end
     
     //Counter
-    always @ *
+    always @ (posedge clk)
     begin
         if(counter == 26'd50000000)
         begin 
