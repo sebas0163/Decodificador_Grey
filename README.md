@@ -9,18 +9,18 @@ Desarrollado por los estudiantes:
 ## Tareas
 - [x] [Creación del repositorio](https://github.com/sebas0163/decodificador_Grey/issues/6)
   - Creación de un repositorio en Github donde almacenar todo el desarrollo del proyecto.
-- [ ] [Interpretar conmutadores de una tabla](https://github.com/sebas0163/decodificador_Grey/issues/1)
+- [X] [Interpretar conmutadores de una tabla](https://github.com/sebas0163/decodificador_Grey/issues/1)
   - Basándose en una tabla, se deberán de interpretar los conmutadores en esta.
   - Se utilizará una entrada de 0011 como caso de prueba, esperando una salida conmutada de 1010.
-- [ ] [Capturar y sincronizar la entrada con el sistema principal](https://github.com/sebas0163/decodificador_Grey/issues/2)
+- [X] [Capturar y sincronizar la entrada con el sistema principal](https://github.com/sebas0163/decodificador_Grey/issues/2)
   - Se tomará la salida de la tabla conmutada, a lo cual se sincronizará con el sistema principal.
-- [ ] [Traducir entrada de binario para enviar al subsistema](https://github.com/sebas0163/decodificador_Grey/issues/3)
+- [X] [Traducir entrada de binario para enviar al subsistema](https://github.com/sebas0163/decodificador_Grey/issues/3)
   - Se obtiene una entrada en binario y se envía al subsistema.
-- [ ] [Desplegar código binario en luces LED, con un refrescado de cada 500 ms](https://github.com/sebas0163/decodificador_Grey/issues/4)
+- [X] [Desplegar código binario en luces LED, con un refrescado de cada 500 ms](https://github.com/sebas0163/decodificador_Grey/issues/4)
   - Se obtiene un código binario y se despliega en luces LED.
   - Se busca tener un refrescado cada medio segundo, de manera que puedan verse los cambios y códigos en poco tiempo.
   - Se estima una salida que encienda 2 de 4 leds para el caso de prueba brindado.
-- [ ] [Decodificación y despliegue en dispositivos de 7 segmentos](https://github.com/sebas0163/decodificador_Grey/issues/5)
+- [X] [Decodificación y despliegue en dispositivos de 7 segmentos](https://github.com/sebas0163/decodificador_Grey/issues/5)
   - Investigar cómo decodificar el código.
   - Desplegar el código decodificado en dispositivos de 7 segmentos.
   - Se convertirá el número obtenido en binario y se proyectará en el dispositivo, de manera que este indique el número en otra base. La salida deberá de ser dicho número en una base que posteriormente se terminará de definir.
@@ -36,23 +36,37 @@ Desarrollado por los estudiantes:
 ## Codigo Gray
 - Es un codigo sin peso y no aritmetico, lo que implica que no existen pesos especificos asignados a las posiciones de los bits. Es caracterizado por solo varia un bit de un codigo al siguiente.
 
-# Decodificador Gray
-## Descripción del circuito
+#  Proyecto Decodificador Gray
+- Se debe de implementar un circuito que pueda obtener de entrada en formato gray, esta debe ser convertida a numeros binarios y ser visualizado por medio de LEDS y el Display que correspondiente a la representacion de los numeros
 
-- El circuito consta de tres subsistemas, los cuales se encargan de convertir el número en código gray a binario (decosficiador gray), enviar la señal en binario para ser representada en leds (subsistema de leds) y también toma la señal y la muestra en el display de siete segmentos (subsistema de 7 segmentos).
+- El circuito consta de tres subsistemas, los cuales se encargan de convertir el número en código gray a binario (decodificar gray), enviar la señal en binario para ser representada en leds (subsistema de leds) y también toma la señal y la muestra en el display de siete segmentos (subsistema de 7 segmentos).
+
+## Subsistema Gray
+
+### El comportamiento Gray corresponde a
+
+![Image text](https://github.com/sebas0163/decodificador_Grey/blob/main/imagenes/tablaVerdadGray.PNG)
 
 ## Subsistema de LEDS
 
-### Diagrama de Bloques
+### El comportamiento de los LEDS corresponde a 
+
+![Image text](https://github.com/sebas0163/decodificador_Grey/blob/main/imagenes/tablaLED.PNG)
+
+### Diagrama de Bloques LEDS
 
 ![Image text](https://github.com/sebas0163/decodificador_Grey/blob/main/imagenes/Bloques_leds.png)
 
-### Diagrama de funcionamiento
+### Diagrama de funcionamiento LEDS
 
 ![Image text](https://github.com/sebas0163/decodificador_Grey/blob/main/imagenes/Diagrama%20leds.png)
 
-## Maquina de estado finito del código de Gray
+## Subsistema Display
 
+### El comportamiento del Display corresponde a 
+
+![Image text](https://github.com/sebas0163/decodificador_Grey/blob/main/imagenes/tablaDisplay.PNG)
+![Image text](https://github.com/sebas0163/decodificador_Grey/blob/main/imagenes/codificadorBinarioDisplay.PNG)
 
 ## Simulación general del circuito
 
@@ -60,10 +74,4 @@ Desarrollado por los estudiantes:
 
 
 
-![Image text](https://github.com/sebas0163/decodificador_Grey/blob/main/imagenes/tablaGray.PNG)
-![Image text](https://github.com/sebas0163/decodificador_Grey/blob/main/imagenes/tablaVerdadGray.PNG)
-![Image text](https://github.com/sebas0163/decodificador_Grey/blob/main/imagenes/codificadorGrayBinario.PNG)
-![Image text](https://github.com/sebas0163/decodificador_Grey/blob/main/imagenes/tablaLED.PNG)
-![Image text](https://github.com/sebas0163/decodificador_Grey/blob/main/imagenes/codificadorBinarioLed.PNG)
-![Image text](https://github.com/sebas0163/decodificador_Grey/blob/main/imagenes/tablaDisplay.PNG)
-![Image text](https://github.com/sebas0163/decodificador_Grey/blob/main/imagenes/codificadorBinarioDisplay.PNG)
+
