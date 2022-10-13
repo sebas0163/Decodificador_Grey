@@ -24,11 +24,12 @@ module init(
     input [3:0]g,
     output wire [6:0] turnOnDisplay,
     output wire [7:0] anodo,
-    output wire dp
+    output wire dp,
+    output wire [3:0]b
 );
    
    
-    wire [3:0]b;
+    
     Decoder U1(g,b);
     //Leds U2(b, turnOnLed);
     Display U3(b,turnOnDisplay,anodo,dp);

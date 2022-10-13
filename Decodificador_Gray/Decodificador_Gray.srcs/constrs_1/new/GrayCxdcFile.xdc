@@ -43,3 +43,8 @@ set_property PACKAGE_PIN K16 [get_ports {turnOnDisplay[4]}]
 set_property PACKAGE_PIN R10 [get_ports {turnOnDisplay[5]}]
 set_property PACKAGE_PIN T10 [get_ports {turnOnDisplay[6]}]
 set_property PACKAGE_PIN H15 [get_ports dp]
+
+set_property PACKAGE_PIN V15 [get_ports {b[0]}]
+set_property PACKAGE_PIN V14 [get_ports {b[1]}]
+set_property PACKAGE_PIN V12 [get_ports {b[2]}]
+set_property PACKAGE_PIN V11 [get_ports {b[3]}]
