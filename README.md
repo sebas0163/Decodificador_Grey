@@ -68,6 +68,11 @@ Desarrollado por los estudiantes:
 ![Image text](https://github.com/sebas0163/decodificador_Grey/blob/main/imagenes/tablaDisplay.PNG)
 ![Image text](https://github.com/sebas0163/decodificador_Grey/blob/main/imagenes/codificadorBinarioDisplay.PNG)
 
+### Diagrama de bloques del Subsistema del display
+
+![Image text](https://github.com/sebas0163/decodificador_Grey/blob/main/imagenes/diagramaBloqueDisplay.PNG)
+
+
 ## Simulación general del circuito
 
 
