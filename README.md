@@ -68,10 +68,24 @@ Desarrollado por los estudiantes:
 ![Image text](https://github.com/sebas0163/decodificador_Grey/blob/main/imagenes/tablaDisplay.PNG)
 ![Image text](https://github.com/sebas0163/decodificador_Grey/blob/main/imagenes/codificadorBinarioDisplay.PNG)
 
+### Diagrama de bloques del Subsistema del display
+
+![Image text](https://github.com/sebas0163/decodificador_Grey/blob/main/imagenes/diagramaBloqueDisplay.PNG)
+
+
 ## Simulación general del circuito
 
 
+## Análisis de consumo de recursos
 
+## Reporte de velocidades máximas y mínimas del reloj
+
+## Problemas encontrados y soluciones propuestas
+
+### Problemas
+- Tiempo de espera erroneo en el subsistema de leds.
+### Soluciones
+- Para el subsistema de leds se recalculó el sistema de conteo de pulsaciones.
 
 
 
