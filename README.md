@@ -76,7 +76,16 @@ Desarrollado por los estudiantes:
 ## Simulación general del circuito
 
 
+## Análisis de consumo de recursos
 
+## Reporte de velocidades máximas y mínimas del reloj
+
+## Problemas encontrados y soluciones propuestas
+
+### Problemas
+- Tiempo de espera erroneo en el subsistema de leds.
+### Soluciones
+- Para el subsistema de leds se recalculó el sistema de conteo de pulsaciones.
 
 
 
