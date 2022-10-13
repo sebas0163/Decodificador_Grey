@@ -23,12 +23,15 @@
 module Decodificador_Gray_Testbench(
 
 );
-    reg [3:0] inputs;
+    reg [3:0] inputs; //Inputs en Gray
+    wire [3:0] binario; //Outputs en binario
     wire [3:0] turnOnLed;
     wire [6:0] turnOnDisplay;
 
-    Leds U1(inputs, turnOnLed);
-    Display U2(inputs,turnOnDisplay);
+
+    Decoder U5 (inputs, binario);
+    //Leds U1(binario, turnOnLed);
+    Display U2(binario,turnOnDisplay);
 
     initial begin
         inputs[0]=0;

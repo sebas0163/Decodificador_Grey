@@ -19,7 +19,7 @@
 // 
 //////////////////////////////////////////////////////////////////////////////////
 
-
+/*
 module oneHz_gen(
     input clk_100Mhz,
     output clk_1Hz
@@ -36,4 +36,4 @@ module oneHz_gen(
     else
         r_counter <= r_counter + 1;
     assign clk_1Hz = r_1Hz;
-endmodule
+endmodule*/

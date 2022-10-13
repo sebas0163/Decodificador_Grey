@@ -21,24 +21,15 @@
 
 
 module Decoder(
-    input clk,
-    input reset,
-    output [3:0] o_bin,
-    output [3:0] o_gray_code
-);
-
-    // 4-bit binary counter
-    reg [3:0] bin_counter = 0;
-
-    always @(posedge clk or posedge reset)
-    if(reset)
-        bin_counter <= 0;
-    else
-        bin_counter <= bin_counter + 1;
-
-    assign o_bin = bin_counter;
-
-    assign o_gray_code[2] = bin_counter[2];
-    assign o_gray_code[1] = bin_counter[2] ^ bin_counter[1];
-    assign o_gray_code[0] = bin_counter[1] ^ bin_counter[0];
+    input [3:0]g,
+    output [3:0]b
+    );
+   
+    assign b[3] = g[3];
+    assign b[2] = g[3] ^ g[2];
+    assign b[1] = g[3] ^ g[2] ^ g[1];
+    assign b[0] = g[3] ^ g[2] ^ g[1] ^ g[0];
+    
+    //Display U2(b,turnOnDisplay);
+    
 endmodule

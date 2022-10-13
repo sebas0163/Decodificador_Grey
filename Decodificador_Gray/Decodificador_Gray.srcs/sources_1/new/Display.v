@@ -21,34 +21,36 @@
 
 
 module Display(
-    input wire [3:0] inputs,
+    input [3:0] inputs,
     output reg [6:0] segments,
     output wire [7:0] anodo,
     output wire dp
     );
+    
     assign dp =1;
     assign anodo = 8'b11111110;
+    
     
     always@(*)
     begin
         case(inputs)
-            0: segments = 7'b1111110;
-            1: segments = 7'b0110000;
-            2: segments = 7'b1101101;
-            3: segments = 7'b1111001;
-            4: segments = 7'b0110011;
-            5: segments = 7'b1011011;
-            6: segments = 7'b1011111;
-            7: segments = 7'b1110000;
-            8: segments = 7'b1101111;
-            9: segments = 7'b1111011;
-            'hA: segments = 7'b1110111;
-            'hB: segments = 7'b1101111;
-            'hC: segments = 7'b1001110;
-            'hD: segments = 7'b1111110;
-            'hE: segments = 7'b1001111;
-            'hF: segments = 7'b1000111;
-            default: segments = 7'b0000000;
+            0: segments = 7'b0000001;
+            1: segments = 7'b1111001;
+            2: segments = 7'b0010010;
+            3: segments = 7'b0000110;
+            4: segments = 7'b1001100;
+            5: segments = 7'b0100100;
+            6: segments = 7'b0100000;
+            7: segments = 7'b0001111;
+            8: segments = 7'b000000;
+            9: segments = 7'b0000100;
+            'hA: segments = 7'b0001000;
+            'hB: segments = 7'b000000;
+            'hC: segments = 7'b0110001;
+            'hD: segments = 7'b0000001;
+            'hE: segments = 7'b0110000;
+            'hF: segments = 7'b0111000;
+            default: segments = 7'b0000001;
         endcase
     end
 endmodule
