@@ -49,7 +49,7 @@ Desarrollado por los estudiantes:
 
 ### Diagrama de bloques subsistema gray
 
-![Image text](https://github.com/sebas0163/decodificador_Grey/blob/main/imagenes/grayDeco.PNG)
+![Image text](https://github.com/sebas0163/decodificador_Grey/blob/main/imagenes/grayDeco.png)
 
 ## Subsistema de LEDS
 
