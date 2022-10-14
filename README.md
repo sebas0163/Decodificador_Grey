@@ -47,6 +47,10 @@ Desarrollado por los estudiantes:
 
 ![Image text](https://github.com/sebas0163/decodificador_Grey/blob/main/imagenes/tablaVerdadGray.PNG)
 
+### Diagrama de bloques subsistema gray
+
+![Image text](https://github.com/sebas0163/decodificador_Grey/blob/main/imagenes/grayDeco.PNG)
+
 ## Subsistema de LEDS
 
 ### Descripcion del comportamiento de los LEDS corresponde a 
@@ -84,9 +88,13 @@ Desarrollado por los estudiantes:
 
 ### Problemas
 - Tiempo de espera erroneo en el subsistema de leds.
+- Mala implementación del conversor Gray.
+- Tardanza de Vivado en responder.
 - Atrasos por no entregar el trabajo establecido en la fecha indicada
 ### Soluciones
 - Para el subsistema de leds se recalculó el sistema de conteo de pulsaciones.
+- Se buscó otra manera de implemetar el conversor.
+- Se instaló una versión más antigua de Vivado que permitiera utilizar los programas en menor tiempo.
 - Ser mas estrictos con las fechas de entregas establecidas
 
 
