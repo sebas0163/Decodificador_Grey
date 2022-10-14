@@ -36,24 +36,24 @@ Desarrollado por los estudiantes:
 ## Codigo Gray
 - Es un codigo sin peso y no aritmetico, lo que implica que no existen pesos especificos asignados a las posiciones de los bits. Es caracterizado por solo varia un bit de un codigo al siguiente.
 
-#  Proyecto Decodificador Gray
+#  Descripción general del funcionamiento  Decodificador Gray
 - Se debe de implementar un circuito que pueda obtener de entrada en formato gray, esta debe ser convertida a numeros binarios y ser visualizado por medio de LEDS y el Display que correspondiente a la representacion de los numeros
 
 - El circuito consta de tres subsistemas, los cuales se encargan de convertir el número en código gray a binario (decodificar gray), enviar la señal en binario para ser representada en leds (subsistema de leds) y también toma la señal y la muestra en el display de siete segmentos (subsistema de 7 segmentos).
 
 ## Subsistema Gray
 
-### El comportamiento Gray corresponde a
+### Descripcion del comportamiento Gray corresponde a
 
 ![Image text](https://github.com/sebas0163/decodificador_Grey/blob/main/imagenes/tablaVerdadGray.PNG)
 
 ## Subsistema de LEDS
 
-### El comportamiento de los LEDS corresponde a 
+### Descripcion del comportamiento de los LEDS corresponde a 
 
 ![Image text](https://github.com/sebas0163/decodificador_Grey/blob/main/imagenes/tablaLED.PNG)
 
-### Diagrama de Bloques LEDS
+### Diagrama de Bloques subsitema LEDS
 
 ![Image text](https://github.com/sebas0163/decodificador_Grey/blob/main/imagenes/Bloques_leds.png)
 
@@ -63,7 +63,7 @@ Desarrollado por los estudiantes:
 
 ## Subsistema Display
 
-### El comportamiento del Display corresponde a 
+### Descripcion del comportamiento del Display corresponde a 
 
 ![Image text](https://github.com/sebas0163/decodificador_Grey/blob/main/imagenes/tablaDisplay.PNG)
 ![Image text](https://github.com/sebas0163/decodificador_Grey/blob/main/imagenes/codificadorBinarioDisplay.PNG)
@@ -72,20 +72,22 @@ Desarrollado por los estudiantes:
 
 ![Image text](https://github.com/sebas0163/decodificador_Grey/blob/main/imagenes/diagramaBloqueDisplay.PNG)
 
-
-## Simulación general del circuito
-
-
 ## Análisis de consumo de recursos
 
+![Image text](https://github.com/sebas0163/decodificador_Grey/blob/main/imagenes/AnalisisConsumo.PNG)
+
 ## Reporte de velocidades máximas y mínimas del reloj
+
+![Image text](https://github.com/sebas0163/decodificador_Grey/blob/main/imagenes/AnalisisVelocidad.PNG)
 
 ## Problemas encontrados y soluciones propuestas
 
 ### Problemas
 - Tiempo de espera erroneo en el subsistema de leds.
+- Atrasos por no entregar el trabajo establecido en la fecha indicada
 ### Soluciones
 - Para el subsistema de leds se recalculó el sistema de conteo de pulsaciones.
+- Ser mas estrictos con las fechas de entregas establecidas
 
 
 
